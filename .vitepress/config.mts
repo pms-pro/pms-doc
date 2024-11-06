@@ -5,6 +5,7 @@ import './hello.js'
  * 配置VitePress应用的参数
  *
  * @returns {object} VitePress配置对象
+ * @author xyqierkang@163.com
  */
 
 export default defineConfig({
@@ -12,8 +13,8 @@ export default defineConfig({
     description: '南京中造软件有限公司｜开箱即用的数据建模平台',
     srcDir: './docs',
     appearance: 'dark', // 默认配置，可以切换
-    base: '/./', // 发布到GitPage
-    // base: '/pms-doc/', // 发布到GitPage
+    base: '/./', // 组织发布到GitPage
+    // base: '/pms-doc/', // 个人发布到GitPage
     // base: '/pms-doc/.vitepress/dist/', // 发布本地访问静态地址
     server: {
         host: '0.0.0.0', // 绑定到所有网络接口
@@ -77,9 +78,9 @@ export default defineConfig({
                 ],
             },
             // {
-            //     text: 'API及示例',
+            //     text: '基础设置示例',
             //     items: [
-            //         {text: '官网设置', link: '/基础设置/process-management.md'},
+            //         {text: '官网设置', link: '/基础设置/流程权限管理.md'},
             //     ],
             // },
         ],
