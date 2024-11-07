@@ -35,8 +35,9 @@ fi
 #fi
 
 # 提交更新
-git_operation "💡 提交更新 git commit -m '$1'" commit -m "'$1'"
+#git_operation "💡 提交更新 git commit -m '$1'" commit -m "'$1'"
 
 # 推送仓库
 # 如果你想要推送，可以取消下面这一行的注释
-git_operation "🖥️ 推送仓库 git push -u origin master" git push -f git@github.com:pms-pro/pms-doc.git master
+#git_operation "🖥️ 推送仓库 git push -u origin master" push -f git@github.com:pms-pro/pms-doc.git master
+git push -f git@github.com:pms-pro/pms-doc.git master
