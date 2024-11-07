@@ -14,7 +14,8 @@ export default defineConfig({
     srcDir: './docs',
     titleTemplate:false, // 禁用网页标题后缀
     appearance: false, // 默认配置，可以切换,true: 默认配置,false: 禁用主题切换，只使用默认的配置；dark: 默认使用深色模式，支持切换
-    base: '/./', // 组织发布到GitPage
+    base: './', // 组织发布到GitPage
+    // base: '/./', // 组织发布到GitPage
     // base: '/pms-doc/', // 个人发布到GitPage
     // base: '/pms-doc/.vitepress/dist/', // 发布本地访问静态地址
     server: {
