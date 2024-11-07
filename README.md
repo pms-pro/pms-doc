@@ -1,5 +1,5 @@
 
-## [PMS-DOC用户帮助文档](http://doc.zhgcraft-pms.com)
+## [PMS-DOC用户帮助文档](http://doc.zhgcraft-pms.com/pms-doc/)
 
 ---
 <font face="微软雅黑" size=2 color=#A9A9A9 >版权声明：内容供技术友人学习使用，请勿外传！转载请附上作者信息</font>
@@ -18,8 +18,54 @@
 ### 重要信息
 1. [帮助文档访问地址](http://doc.zhgcraft-pms.com/pms-doc/)
 
+---
 
-### 运行项目
+### 基础命令
+
+<details>
+
+<summary>点此展开查看</summary>
+
+### 1.进入目录
+
+```shell
+cd D:\InsertList\pms-help
+
+D:
+```
+
+### 2.更新本地代码
+
+```shell
+git pull
+```
+
+### 3.添加本地文件
+
+```shell
+git add *
+```
+
+### 4.提交更新
+
+```shell
+git commit -m "补充了几个部门的界面，仓储、财务、采购、技术、基础设置、销售部门已完成"
+```
+
+### 4.代码推送仓库
+
+```shell
+# 如果发布到  GitHub
+git push -u origin "master"
+```
+
+### 5.项目地址：https://gitee.com/qierkang/pms-help/tree/master
+
+</details>
+
+---
+
+### 打包运行项目
 
 <details>
 
