@@ -9,7 +9,7 @@ import './hello.js'
  */
 
 export default defineConfig({
-    title: 'PMS用户帮助文档6',
+    title: 'PMS用户帮助文档7',
     description: '南京中造软件有限公司｜开箱即用的数据建模平台',
     srcDir: './docs',
     titleTemplate:false, // 禁用网页标题后缀
