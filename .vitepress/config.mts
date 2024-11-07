@@ -12,7 +12,7 @@ export default defineConfig({
     title: 'PMS用户帮助文档8',
     description: '南京中造软件有限公司｜开箱即用的数据建模平台',
     srcDir: './docs',
-    titleTemplate:false, // 禁用网页标题后缀
+    titleTemplate: false, // 禁用网页标题后缀
     appearance: false, // 默认配置，可以切换,true: 默认配置,false: 禁用主题切换，只使用默认的配置；dark: 默认使用深色模式，支持切换
     // base: '/./', // 组织发布到GitPage
     base: '/pms-doc/', // 个人发布到GitPage
@@ -62,6 +62,17 @@ export default defineConfig({
                                     {text: '菜单设置', link: '/基础设置/公司信息/菜单设置.md'},
                                     {text: '部门岗位', link: '/基础设置/公司信息/部门岗位.md'},
                                 ],
+                            }, {
+                                text: '官网',
+                                collapsed: true,
+                                items: [
+                                    {text: '产品展示', link: '/基础设置/官网/产品展示.md'},
+                                    {text: '基本信息', link: '/基础设置/官网/基本信息.md'},
+                                ],
+                            },
+                            {
+                                text: 'App设置',
+                                link: '/基础设置/App设置.md',
                             },
                             {
                                 text: '流程权限管理',
@@ -74,6 +85,71 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {text: '设备分类', link: '/品质管理/质检设备分类.md'},
+                            {text: '品质制度', link: '/品质管理/品质制度.md'},
+                            {text: '质检设备', link: '/品质管理/质检设备.md'},
+                            {text: '报销申请', link: '/品质管理/报销申请.md'},
+                        ],
+                    }, {
+                        text: '技术管理',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: '调度任务',
+                                collapsed: true,
+                                items: [
+                                    {text: '产品维度', link: '/技术管理/调度任务/产品维度.md'},
+                                    {text: '批次维度', link: '/技术管理/调度任务/批次维度.md'},
+                                ],
+                            },
+                            {text: '产品列表', link: '/技术管理/产品列表.md'},
+                            {text: '工序列表', link: '/技术管理/工序列表.md'},
+                            {text: '单位配置', link: '/技术管理/单位配置.md'},
+                            {text: '销售订单', link: '/技术管理/销售订单.md'},
+                            {text: '零件列表', link: '/技术管理/零件列表.md'},
+                            {text: '检验项目', link: '/技术管理/检验项目.md'},
+                            {text: '技术制度', link: '/技术管理/技术制度.md'},
+                            {text: '工装-设备分类', link: '/技术管理/工装-设备分类.md'},
+                            {text: '技术改进', link: '/技术管理/技术改进.md'},
+                            {text: '报销申请', link: '/技术管理/报销申请.md'},
+                        ],
+                    }, {
+                        text: '销售管理',
+                        collapsed: true,
+                        items: [
+                            {text: '询价列表', link: '/销售管理/询价列表.md'},
+                            {text: '模板列表', link: '/销售管理/模板列表.md'},
+                            {text: '报价列表', link: '/销售管理/报价列表.md'},
+                            {text: '合同列表', link: '/销售管理/合同列表.md'},
+                            {text: '客户列表', link: '/销售管理/客户列表.md'},
+                            {text: '备案记录', link: '/销售管理/备案记录.md'},
+                            {text: '报销申请', link: '/销售管理/报销申请.md'},
+                            {text: '销售制度', link: '/销售管理/销售制度.md'},
+                        ],
+                    },{
+                        text: '综合管理',
+                        collapsed: true,
+                        items: [
+                            {text: '报销申请', link: '/综合管理/报销申请.md'},
+                        ],
+                    },{
+                        text: '采购管理',
+                        collapsed: true,
+                        items: [
+                            {text: '询价列表', link: '/采购管理/询价列表.md'},
+                            {text: '模板列表', link: '/采购管理/模板列表.md'},
+                            {text: '报价列表', link: '/采购管理/报价列表.md'},
+                            {text: '合同列表', link: '/采购管理/合同列表.md'},
+                            {text: '供应商', link: '/采购管理/供应商.md'},
+                        ],
+                    },{
+                        text: '财务管理',
+                        collapsed: true,
+                        items: [
+                            {text: '合同列表', link: '/财务管理/合同列表.md'},
+                            {text: '汇率税率', link: '/财务管理/汇率税率.md'},
+                            {text: '产品等级', link: '/财务管理/产品等级.md'},
+                            {text: '财务制度', link: '/财务管理/财务制度.md'},
+                            {text: '客户系数', link: '/财务管理/客户系数.md'},
                         ],
                     },
                 ],

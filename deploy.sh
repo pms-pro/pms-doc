@@ -3,13 +3,23 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
-pnpm run docs:build
+# 函数：执行 Git 操作并显示消息
+git_operation() {
+    echo "$1"
+    sleep 1  # 增加睡眠时间以便观察
+    git $2
+}
 
-# 进入生成的文件夹
-cd .vitepress/dist
+# 检查当前目录是否是 Git 仓库
+if ! git rev-parse --is-inside-work-tree &>/dev/null; then
+    echo "错误：当前目录不是一个 Git 仓库。"
+    exit 1
+fi
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
+# 更新本地代码
+git_operation "🎉 开始更新仓库 git pull" pull
+
+# 推送仓库
+echo "🖥️ 开始推送仓库 git push -f git@github.com:pms-pro/pms-doc.git master"
+sleep 1  # 增加睡眠时间以便观察
 git push -f git@github.com:pms-pro/pms-doc.git master
-
-cd -
