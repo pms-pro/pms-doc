@@ -19,12 +19,6 @@ fi
 # 更新本地代码
 git_operation "🎉 开始更新仓库 git pull" pull
 
-# 检查是否有文件被修改
-if [ -z "$(git status --porcelain)" ]; then
-    echo "没有文件被修改，无需提交。"
-    exit 2
-fi
-
 # 添加本地文件
 #git_operation "🐧 添加本地文件 git add ." add .
 
