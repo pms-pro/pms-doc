@@ -4,8 +4,9 @@
 ---
 <font face="微软雅黑" size=2 color=#A9A9A9 >版权声明：内容供技术友人学习使用，请勿外传！转载请附上作者信息</font>
 
-[![coverage](https://img.shields.io/badge/blog-important.svg)](https://www.qekang.com)|[![coverage](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)|[![coverage](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-
+![coverage](https://img.shields.io/badge/%E5%8D%97%E4%BA%AC-%E4%B8%AD%E9%80%A0%E8%BD%AF%E4%BB%B6-0ba0a0)
+[![coverage](https://img.shields.io/badge/PMS-%E8%BF%90%E8%90%A5%E7%B3%BB%E7%BB%9F-3e73ff)](http://www.zhgcraft.com/)
+[![coverage](https://img.shields.io/badge/PMS-%E5%95%86%E6%88%B7%E7%B3%BB%E7%BB%9F-8A2BE2)](https://zhongzao.zhgcraft-pms.com/login/)
 
 #### 商户系统帮助指南，PMS开箱即用的数据建模、逻辑编排、表单设计、页面设计、流程设计、报表设计、官网设计、移动设计、数据集成等系统通用基础功能，开发平台配套的移动App，自动生成移动App功能及界面代码，实现同一套代码同时发布到苹果端、安卓端，实现企业信息化统一管理。平台主要目的让开发者注重专注业务，降低技术难度，缩短项目开发交付周期，提高软件安全质量，节省人力成本，为企业数字化建设降本增效。
 
