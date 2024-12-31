@@ -9,7 +9,7 @@ import './hello.js'
  */
 
 export default defineConfig({
-    title: 'PMS用户帮助文档11',
+    title: 'PMS用户帮助文档',
     description: '南京中造软件有限公司｜开箱即用的数据建模平台',
     srcDir: './docs',
     titleTemplate: false, // 禁用网页标题后缀
@@ -123,6 +123,7 @@ export default defineConfig({
                             },
                             {text: '产品列表', link: '/技术管理/产品列表.md'},
                             {text: '工序列表', link: '/技术管理/工序列表.md'},
+                            {text: '工艺路线', link: '/技术管理/工艺路线.md'},
                             {text: '调度记录', link: '/技术管理/调度记录.md'},
                             {text: '销售订单', link: '/技术管理/销售订单.md'},
                             {text: '零件列表', link: '/技术管理/零件列表.md'},
@@ -130,6 +131,7 @@ export default defineConfig({
                             {text: '技术制度', link: '/技术管理/技术制度.md'},
                             {text: '工装-设备分类', link: '/技术管理/工装-设备分类.md'},
                             {text: '技术改进', link: '/技术管理/技术改进.md'},
+                            {text: '工装设备', link: '/技术管理/工装设备.md'},
                             {text: '单位配置', link: '/技术管理/单位配置.md'},
                             {text: '报销申请', link: '/技术管理/报销申请.md'},
                         ],
@@ -151,6 +153,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {text: '报销申请', link: '/综合管理/报销申请.md'},
+                            {text: '员工档案', link: '/综合管理/员工档案.md'},
                         ],
                     }, {
                         text: '采购管理',
@@ -175,6 +178,17 @@ export default defineConfig({
                             {text: '财务制度', link: '/财务管理/财务制度.md'},
                             {text: '客户系数', link: '/财务管理/客户系数.md'},
                             {text: '报销申请', link: '/财务管理/报销申请.md'},
+                        ],
+                    },{
+                        text: '仓储管理',
+                        collapsed: true,
+                        items: [
+                            {text: '入库列表', link: '/仓储管理/入库列表.md'},
+                            {text: '出库列表', link: '/仓储管理/出库列表.md'},
+                            {text: '仓位列表', link: '/仓储管理/仓位列表.md'},
+                            {text: '库存列表', link: '/仓储管理/库存列表.md'},
+                            {text: '仓库制度', link: '/仓储管理/仓库制度.md'},
+                            {text: '报销申请', link: '/仓储管理/报销申请.md'},
                         ],
                     },
                 ],
