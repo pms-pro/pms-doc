@@ -74,11 +74,11 @@ export default defineConfig({
                                 text: '公司信息',
                                 collapsed: true,
                                 items: [
-                                    {text: '人员信息', link: '/基础设置/公司信息/人员信息.md'},
+                                    {text: '人员信息', link: '/基础设置/公司信息/员工权限.md'},
                                     {text: '印章授权', link: '/基础设置/公司信息/印章授权.md'},
                                     {text: '基本资料', link: '/基础设置/公司信息/基本资料.md'},
                                     {text: '菜单设置', link: '/基础设置/公司信息/部门设置.md'},
-                                    {text: '部门岗位', link: '/基础设置/公司信息/部门岗位.md'},
+                                    {text: '部门岗位', link: '/基础设置/公司信息/部门职责.md'},
                                 ],
                             }, {
                                 text: '官网',
@@ -185,7 +185,7 @@ export default defineConfig({
                         items: [
                             {text: '入库列表', link: '/仓储管理/入库列表.md'},
                             {text: '出库列表', link: '/仓储管理/出库列表.md'},
-                            {text: '仓位列表', link: '/仓储管理/仓位列表.md'},
+                            {text: '仓位列表', link: '/仓储管理/仓位列表1.md'},
                             {text: '库存列表', link: '/仓储管理/库存列表.md'},
                             {text: '仓库制度', link: '/仓储管理/仓库制度.md'},
                             {text: '报销申请', link: '/仓储管理/报销申请.md'},
