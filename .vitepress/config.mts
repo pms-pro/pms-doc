@@ -114,11 +114,11 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {
-                                text: '调度任务',
+                                text: '生产计划',
                                 collapsed: true,
                                 items: [
-                                    {text: '产品维度', link: '/技术管理/调度任务/产品维度.md'},
-                                    {text: '批次维度', link: '/技术管理/调度任务/批次维度.md'},
+                                    {text: '产品维度', link: '/技术管理/生产计划/生产安排.md'},
+                                    {text: '批次维度', link: '/技术管理/生产计划/生产记录.md'},
                                 ],
                             },
                             {text: '产品列表', link: '/技术管理/产品列表.md'},
