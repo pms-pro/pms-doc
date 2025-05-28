@@ -122,7 +122,8 @@ docker exec -it pms-doc bash
 ```shell
 # 如果发布到  GitHub
 git push -f git@github.com:pms-pro/pms-doc.git master
-
+# 代码提交令牌地址：https://github.com/settings/tokens/2044563817
+# 令牌地址查看：http://gitlab.zhgcraft.com/zhgcraft-front/pms-doc
 ```
 </details>
 
