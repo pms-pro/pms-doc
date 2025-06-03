@@ -107,7 +107,7 @@ export default defineConfig({
                             {text: '品质制度', link: '/品质管理/品质制度.md'},
                             {text: '质检设备', link: '/品质管理/质检设备.md'},
                             {text: '报销申请', link: '/品质管理/报销申请.md'},
-                            {text: '入场检验', link: '/品质管理/入场检验.md'},
+                            {text: '入场检验', link: '/品质管理/入库检安排.md'},
                         ],
                     }, {
                         text: '技术管理',
