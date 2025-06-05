@@ -185,7 +185,7 @@ export default defineConfig({
                         items: [
                             {text: '入库列表', link: '/仓储管理/入库列表.md'},
                             {text: '出库列表', link: '/仓储管理/出库列表.md'},
-                            {text: '仓位列表', link: '/仓储管理/仓位列表1.md'},
+                            {text: '仓位列表', link: '/仓储管理/仓位设置.md'},
                             {text: '库存列表', link: '/仓储管理/库存列表.md'},
                             {text: '仓库制度', link: '/仓储管理/仓库制度.md'},
                             {text: '报销申请', link: '/仓储管理/报销申请.md'},
