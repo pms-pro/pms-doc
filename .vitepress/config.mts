@@ -77,7 +77,8 @@ export default defineConfig({
                                     {text: '人员信息', link: '/基础设置/公司信息/员工权限.md'},
                                     {text: '印章授权', link: '/基础设置/公司信息/印章授权.md'},
                                     {text: '基本资料', link: '/基础设置/公司信息/基本资料.md'},
-                                    {text: '菜单设置', link: '/基础设置/公司信息/部门设置.md'},
+                                    {text: '菜单设置', link: '/基础设置/公司信息/岗位职责.md'},
+                                    {text: '菜单设置', link: '/基础设置/公司信息/组织架构.md'},
                                     {text: '部门岗位', link: '/基础设置/公司信息/部门职责.md'},
                                 ],
                             }, {
@@ -113,18 +114,10 @@ export default defineConfig({
                         text: '技术管理',
                         collapsed: true,
                         items: [
-                            {
-                                text: '生产计划',
-                                collapsed: true,
-                                items: [
-                                    {text: '产品维度', link: '/技术管理/生产计划/生产安排.md'},
-                                    {text: '批次维度', link: '/技术管理/生产计划/生产记录.md'},
-                                ],
-                            },
                             {text: '产品列表', link: '/技术管理/产品列表.md'},
                             {text: '工序列表', link: '/技术管理/工序列表.md'},
                             {text: '工艺路线', link: '/技术管理/工艺路线.md'},
-                            {text: '调度记录', link: '/技术管理/调度记录.md'},
+                            // {text: '调度记录', link: '/技术管理/调度记录.md'},
                             {text: '销售订单', link: '/技术管理/销售订单.md'},
                             {text: '零件列表', link: '/技术管理/零件列表.md'},
                             {text: '检验项目', link: '/技术管理/检验项目.md'},
@@ -134,6 +127,27 @@ export default defineConfig({
                             {text: '工装设备', link: '/技术管理/工装设备.md'},
                             {text: '单位配置', link: '/技术管理/单位配置.md'},
                             {text: '报销申请', link: '/技术管理/报销申请.md'},
+                        ],
+                    },{
+                        text: '生产管理',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: '生产计划',
+                                collapsed: true,
+                                items: [
+                                    {text: '生产安排', link: '/生产管理/生产计划/生产安排.md'},
+                                    {text: '生产记录', link: '/生产管理/生产计划/生产记录.md'},
+                                ],
+                            },
+                            {text: '报废数据', link: '/生产管理/报废数据.md'},
+                            {text: '报销申请', link: '/生产管理/报销申请.md'},
+                            {text: '生产任务', link: '/生产管理/生产任务.md'},
+                            {text: '生产参数设置', link: '/生产管理/生产参数设置.md'},
+                            {text: '生产派工', link: '/生产管理/生产派工.md'},
+                            {text: '设备列表', link: '/生产管理/设备列表.md'},
+                            {text: '返工分发', link: '/生产管理/返工分发.md'},
+                            {text: '返工处理', link: '/生产管理/返工处理.md'}
                         ],
                     }, {
                         text: '销售管理',
