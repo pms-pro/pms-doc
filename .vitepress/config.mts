@@ -71,15 +71,15 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {
-                                text: '公司信息',
+                                text: '基础设置',
                                 collapsed: true,
                                 items: [
-                                    {text: '人员信息', link: '/基础设置/公司信息/员工权限.md'},
-                                    {text: '印章授权', link: '/基础设置/公司信息/印章授权.md'},
-                                    {text: '基本资料', link: '/基础设置/公司信息/基本资料.md'},
-                                    {text: '菜单设置', link: '/基础设置/公司信息/岗位职责.md'},
-                                    {text: '菜单设置', link: '/基础设置/公司信息/组织架构.md'},
-                                    {text: '部门岗位', link: '/基础设置/公司信息/部门职责.md'},
+                                    {text: '人员信息', link: '/基础设置/基础设置/员工权限.md'},
+                                    {text: '印章授权', link: '/基础设置/基础设置/印章授权.md'},
+                                    {text: '基本资料', link: '/基础设置/基础设置/基本资料.md'},
+                                    {text: '菜单设置', link: '/基础设置/基础设置/岗位职责-暂无.md'},
+                                    {text: '菜单设置', link: '/基础设置/基础设置/组织架构.md'},
+                                    {text: '部门岗位', link: '/基础设置/基础设置/部门职责-暂无.md'},
                                 ],
                             }, {
                                 text: '官网',
@@ -107,7 +107,7 @@ export default defineConfig({
                             {text: '设备分类', link: '/品质管理/设备分类.md'},
                             {text: '品质制度', link: '/品质管理/品质制度.md'},
                             {text: '质检设备', link: '/品质管理/质检设备.md'},
-                            {text: '报销申请', link: '/品质管理/报销申请.md'},
+                            {text: '报销申请', link: '/品质管理/报销申请-暂无.md'},
                             {text: '入场检验', link: '/品质管理/入库检安排.md'},
                         ],
                     }, {
@@ -126,7 +126,7 @@ export default defineConfig({
                             {text: '技术改进', link: '/技术管理/技术改进.md'},
                             {text: '工装设备', link: '/技术管理/工装设备.md'},
                             {text: '单位配置', link: '/技术管理/单位配置.md'},
-                            {text: '报销申请', link: '/技术管理/报销申请.md'},
+                            {text: '报销申请', link: '/技术管理/报销申请-暂无.md'},
                         ],
                     },{
                         text: '生产管理',
@@ -141,7 +141,7 @@ export default defineConfig({
                                 ],
                             },
                             {text: '报废数据', link: '/生产管理/报废数据.md'},
-                            {text: '报销申请', link: '/生产管理/报销申请.md'},
+                            {text: '报销申请', link: '/生产管理/报销申请-暂无.md'},
                             {text: '生产任务', link: '/生产管理/生产任务.md'},
                             {text: '生产参数设置', link: '/生产管理/生产参数设置.md'},
                             {text: '生产派工', link: '/生产管理/生产派工.md'},
@@ -159,14 +159,14 @@ export default defineConfig({
                             {text: '合同列表', link: '/销售管理/合同列表.md'},
                             {text: '客户列表', link: '/销售管理/客户列表.md'},
                             {text: '备案记录', link: '/销售管理/备案记录.md'},
-                            {text: '报销申请', link: '/销售管理/报销申请.md'},
+                            {text: '报销申请', link: '/销售管理/报销申请-暂无.md'},
                             {text: '销售制度', link: '/销售管理/销售制度.md'},
                         ],
                     }, {
                         text: '综合管理',
                         collapsed: true,
                         items: [
-                            {text: '报销申请', link: '/综合管理/报销申请.md'},
+                            {text: '报销申请', link: '/综合管理/报销申请-暂无.md'},
                             {text: '员工档案', link: '/综合管理/员工档案.md'},
                         ],
                     }, {
@@ -180,7 +180,7 @@ export default defineConfig({
                             {text: '采购制度', link: '/采购管理/采购制度.md'},
                             {text: '缺料列表', link: '/采购管理/缺料列表.md'},
                             {text: '供应商', link: '/采购管理/供应商.md'},
-                            {text: '报销申请', link: '/采购管理/报销申请.md'},
+                            {text: '报销申请', link: '/采购管理/报销申请-暂无.md'},
                         ],
                     }, {
                         text: '财务管理',
@@ -191,7 +191,7 @@ export default defineConfig({
                             {text: '产品等级', link: '/财务管理/产品等级.md'},
                             {text: '财务制度', link: '/财务管理/财务制度.md'},
                             {text: '客户系数', link: '/财务管理/客户系数.md'},
-                            {text: '报销申请', link: '/财务管理/报销申请.md'},
+                            {text: '报销申请', link: '/财务管理/报销申请-暂无.md'},
                         ],
                     },{
                         text: '仓储管理',
@@ -202,7 +202,7 @@ export default defineConfig({
                             {text: '仓位列表', link: '/仓储管理/仓位设置.md'},
                             {text: '库存列表', link: '/仓储管理/库存列表.md'},
                             {text: '仓库制度', link: '/仓储管理/仓库制度.md'},
-                            {text: '报销申请', link: '/仓储管理/报销申请.md'},
+                            {text: '报销申请', link: '/仓储管理/报销申请-暂无.md'},
                         ],
                     },
                 ],
