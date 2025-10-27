@@ -119,7 +119,7 @@ export default defineConfig({
                             {text: '工艺路线', link: '/技术管理/工艺路线.md'},
                             // {text: '调度记录', link: '/技术管理/调度记录.md'},
                             {text: '销售订单', link: '/技术管理/销售订单.md'},
-                            {text: '零件列表', link: '/技术管理/零件列表.md'},
+                            {text: '零件列表', link: '/技术管理/有路线版本-零件列表.md'},
                             {text: '检验项目', link: '/技术管理/检验项目.md'},
                             {text: '技术制度', link: '/技术管理/技术制度.md'},
                             {text: '工装-设备分类', link: '/技术管理/工装-设备分类.md'},
