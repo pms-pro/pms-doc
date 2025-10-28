@@ -103,7 +103,7 @@ export default defineConfig({
                         text: '品质管理',
                         collapsed: true,
                         items: [
-                            {text: '出厂检验', link: '/品质管理/出厂检验.md'},
+                            {text: '出厂检验', link: '/品质管理/出厂检验-暂无.md'},
                             {text: '设备分类', link: '/品质管理/设备分类.md'},
                             {text: '品质制度', link: '/品质管理/品质制度.md'},
                             {text: '质检设备', link: '/品质管理/质检设备.md'},
