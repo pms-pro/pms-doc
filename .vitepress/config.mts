@@ -133,11 +133,11 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {
-                                text: '生产计划',
+                                text: '生产计划-有路线版本',
                                 collapsed: true,
                                 items: [
-                                    {text: '生产安排', link: '/生产管理/生产计划/生产安排.md'},
-                                    {text: '生产记录', link: '/生产管理/生产计划/生产记录.md'},
+                                    {text: '生产安排', link: '/生产管理/生产计划-有路线版本/生产安排.md'},
+                                    {text: '生产记录', link: '/生产管理/生产计划-有路线版本/生产记录.md'},
                                 ],
                             },
                             {text: '报废数据', link: '/生产管理/报废数据.md'},
